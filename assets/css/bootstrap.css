@@ -4792,10 +4792,10 @@ a.label:focus {
 .label-danger[href]:focus {
   background-color: #c9302c;
 }
-.badge {
+.badge-warning {
   display: inline-block;
   min-width: 10px;
-  padding: 3px 7px;
+  padding: 7px 7px;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
@@ -4803,9 +4803,25 @@ a.label:focus {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  background-color: #777;
+  background-color:  #ba6b6c;
   border-radius: 10px;
 }
+
+.badge-info {
+  display: inline-block;
+  min-width: 10px;
+  padding: 7px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color:#ffcccb;
+  border-radius: 10px;
+}
+
 .badge:empty {
   display: none;
 }
