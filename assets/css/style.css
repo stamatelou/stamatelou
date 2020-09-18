@@ -152,7 +152,7 @@ padding:0px;
     SERVICES STYLES
 ==================================*/
 #services {
-    background-color:#cfcfcf;
+    background-color:rgba(209,209, 214);
     padding-top: 120px;
 
 }
@@ -240,7 +240,7 @@ padding:0px;
     transition-duration: 0.8s;
 }
 #works {
-    background-color:#cfcfcf;
+    background-color:rgba(209,209, 214);
 }
 #works .work-wrapper {
     border: 20px solid #e0e0e0;
