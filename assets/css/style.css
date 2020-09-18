@@ -20,8 +20,16 @@ section {
 
 .btn {
     border-radius: 0px;
-    -webkit-border-radius: 0px;
+    -webkit-border-radius: 10px;
     -moz-border-radius: 0px;
+    border: 0;
+  
+    font-size: 2rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    padding:1rem 2rem;
+    margin: 0.25rem;
+    cursor: pointer;
 }
 
 .set-bk-clr {
@@ -145,12 +153,14 @@ padding:0px;
 ==================================*/
 #services {
     background-color:#cfcfcf;
+    padding-top: 120px;
+
 }
 
     #services i {
-        font-size: 80px;
+        font-size: 50px;
         padding: 30px;
-        color: #FF2276;
+        color: black;
     }
 
     #services h4 {
