@@ -78,7 +78,7 @@ padding:0px;
     }
 
 .navbar-default {
-    background-color: #ffcccb;
+    background-color:rgba(142,142, 147);
     border-color: transparent;
 }
 /* ADDED PADDING IN NAVBAR */
@@ -119,7 +119,7 @@ padding:0px;
 }
 
     #header .overlay {
-        background-color: rgba(3, 3, 3, 0.8);
+        background-color: rgba(43, 43,43, 0.8);
         min-height: 700px;
     }
 
