@@ -1592,7 +1592,7 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,  .col-xs-2half, .col-sm-2half, .col-md-2half, .col-lg-2half,.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
@@ -1913,7 +1913,7 @@ pre code {
   }
 }
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2,.col-md-2half, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
   .col-md-12 {
@@ -1945,6 +1945,9 @@ pre code {
   }
   .col-md-3 {
     width: 25%;
+  }
+  .col-md-2half {
+    width: 24%;
   }
   .col-md-2 {
     width: 16.66666667%;
@@ -2985,6 +2988,9 @@ select[multiple].form-group-lg .form-control {
   border: 1px solid transparent;
   border-radius: 4px;
 }
+
+
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -3064,10 +3070,20 @@ fieldset[disabled] .btn-default.active {
   background-color: #333;
 }
 .btn-primary {
+  border-radius: 20%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 0px;
+  border: 0;
+  font-size: 1rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  margin: 0.15rem;
+  cursor: pointer;
   color: #fff;
   background-color:rgba(142,142, 147);
   border-color: None;
-  border-radius: 20%;
+
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -3332,7 +3348,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-sm,
 .btn-group-sm > .btn {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -4796,30 +4812,30 @@ a.label:focus {
 .badge-warning {
   display: inline-block;
   min-width: 10px;
-  padding: 7px 7px;
+  padding: 3px 5px;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1;
   color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  background-color:  #ba6b6c;
+  background-color:  rgb(121, 192, 200);
   border-radius: 10px;
 }
 
 .badge-info {
   display: inline-block;
   min-width: 10px;
-  padding: 7px 7px;
+  padding: 3px 5px;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1;
   color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  background-color:#ffcccb;
+  background-color: rgb(250,187,92);
   border-radius: 10px;
 }
 

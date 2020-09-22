@@ -4,6 +4,7 @@ GENERAL STYLES
 
 @import url(https://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,700);
 
+
 body {
     font-family: 'Maven Pro', sans-serif;
     line-height: 25px;
@@ -239,28 +240,29 @@ padding:0px;
     -moz-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
+
 #works {
     background-color:rgba(209,209, 214);
 }
 #works .work-wrapper {
-    border: 20px solid #e0e0e0;
-    padding: 20px;
-    margin: 5px 5px 10px 5px;
-    max-height: 400px;
-    max-width: 400px; 
+    border: 2px solid #e0e0e0;
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+    height: 300px !important;
+    max-width: 250px; 
 
 }
 
 #works img {
     filter: gray; /* FOR IE6-9 */
-    -webkit-filter: grayscale(1); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+    -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
     opacity: 0.8;
     
 }
 
     #works img:hover {
         filter: none; /* FOR IE6-9 */
-        -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+        -webkit-filter: grayscale(1); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
         opacity: 1;
     }
 /* =============================================================
