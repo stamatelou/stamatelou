@@ -41,12 +41,17 @@ $(document).ready(function () {
         $('.fancybox-media').fancybox({
             openEffect: 'elastic',
             closeEffect: 'elastic',
+            beforeShow : function(){
+                this.title =  $(this.element).data("caption")},
+
             helpers: {
                 title: {
                     type: 'inside'
                 }
             }
         });
+
+        
 
     //ISOTOPE  PLUGIN SCRIPT FOR FILTER FUCNTIONALITY
         $(window).load(function () {
@@ -79,5 +84,6 @@ $(document).ready(function () {
     //CLIENTS SLIDER
         $("#clients-slider").carousel({
             interval: 2000 //TIME IN MILLI SECONDS
-        });
+        });
+
 });
