@@ -93,7 +93,6 @@
                     <div class="row text-center">
                         <div class="col-md-9 col-md-offset-1 pad-bottom" data-scroll-reveal="enter from the bottom after 0.2s">    
                             I am a PDEng Candidate in Data Science at Eindhoven University of Technology, where I develop data-driven solutions for the industry. 
-                            I 
                         </div>
                     </div>
                 </div>
@@ -215,21 +214,27 @@
     <section id="works">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-6 col-md-offset-3 pad-bottom" data-scroll-reveal="enter from the bottom after 0.2s">
+                <div class="col-md-6 col-md-offset-3" style = "padding-bottom: 20px" data-scroll-reveal="enter from the bottom after 0.2s">
                     <h2><strong>WORK PORFOLIO</strong></h2>
                     The following are some of the projects that I have been working on. From client based to personal projects.
                 </div>
             </div>
 
             <div class="row text-center">
-                <div class="col-md-12 pad-bottom" data-scroll-reveal="enter from the bottom after 0.4s">
+                <div class="col-md-12" style = "padding-bottom: 20px" data-scroll-reveal="enter from the bottom after 0.4s">
                     <div class="caegories">
                         <a href="#" data-filter="*" class="active btn-primary btn-sm">All</a>
                         <a href="#" data-filter=".ml" class=" btn-primary btn-sm">Machine Learning</a>
                         <a href="#" data-filter=".visualization" class=" btn-primary btn-sm">Data Visualization</a>
                         <a href="#" data-filter=".engineering" class=" btn-primary btn-sm">Data Engineering</a>
-                        <a href="#" data-filter=".statistics" class=" btn-primary btn-sm">Statistics</a>
-                        <a href="#" data-filter=".image" class=" btn-primary btn-sm">Image Processing</a>
+                        <!--<a href="#" data-filter=".statistics" class=" btn-primary btn-sm">Statistics</a>-->
+                        <a href="#" data-filter=".image" class=" btn-primary btn-sm">Image Processing</a>                        
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12" style = "padding-bottom: 20px" data-scroll-reveal="enter from the bottom after 0.4s">
+                    <div class="caegories">
                         <a href="#" data-filter=".python" class=" btn-primary btn-sm">Python</a>
                         <a href="#" data-filter=".d3" class=" btn-primary btn-sm">D3.js</a>
                         <a href="#" data-filter=".r" class=" btn-primary btn-sm">R</a>
@@ -237,20 +242,18 @@
                         <a href="#" data-filter=".css" class=" btn-primary btn-sm">CSS</a>
                         <a href="#" data-filter=".html" class=" btn-primary btn-sm">HTML</a>
                         <a href="#" data-filter=".docker" class=" btn-primary btn-sm">Docker</a>
-                        <a href="#" data-filter=".kubernetes" class=" btn-primary btn-sm">Kubernetes</a>
-                        <a href="#" data-filter=".kubernetes" class=" btn-primary btn-xs">scikit-learn</a>
-                        
+                        <a href="#" data-filter=".kubernetes" class=" btn-primary btn-sm">Kubernetes</a>                        
                     </div>
                 </div>
             </div>
 
             <div class="row text-center" id="portfolio-div" >
-                 
+                <!--Signify -->
                 <div class="col-md-2half col-sm-2half ml python docker kubernetes engineering">
                     <div class="work-wrapper">
                         <a class="fancybox-media"  
-                            title="Design an end-to-end Machine Learning architecture for analysis of chicken audio data."
-                            data-caption="<h3> Design an end-to-end Machine Learning architecture for analysis of chicken audio data.</h3> 
+                            title="An end-to-end Machine Learning architecture design for analysis of chicken audio data."
+                            data-caption="<h3> An end-to-end Machine Learning architecture design for analysis of chicken audio data.</h3> 
                                    <ul>
                                         <li>Audio Clustering</li>
                                         <li>Anomaly Detection</li>
@@ -259,7 +262,7 @@
                             href="assets/img/portfolio/signify.jpg">
                             <img src="assets/img/portfolio/signify.jpg" class="img-responsive" alt="" />
                         </a>
-                        <p> Design an end-to-end Machine Learning architecture for analysis of chicken audio data.</p>
+                        <p> An end-to-end Machine Learning architecture design for analysis of chicken audio data.</p>
                         <span class="badge badge-pill badge-warning">Machine Learning</span>
                         <span class="badge badge-pill badge-info">Python</span>
                         <span class="badge badge-pill badge-info">Docker</span>
@@ -267,21 +270,23 @@
                     </div>
                 </div>
 
-            <!-- 
-                <div class="col-md-2half col-sm-2half python">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media" 
-                            title="Assessment of safety issues." 
-                            href="assets/img/portfolio/heijmans.jpg">
-                            <img src="assets/img/portfolio/heijmans.jpg" class="img-responsive " alt="" />
-                        </a>
-                        <p>Assessment of safety issues.</p>
-                        <span class="badge badge-pill badge-warning">Data Visualization</span>
-                        <span class="badge badge-pill badge-info">Python</span>
-                    </div>
-                </div> 
-            -->
-            <!--Coronavirus - News -->
+                <!--Heijmans -->
+                <!-- 
+                    <div class="col-md-2half col-sm-2half python">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media" 
+                                title="Assessment of safety issues." 
+                                href="assets/img/portfolio/heijmans.jpg">
+                                <img src="assets/img/portfolio/heijmans.jpg" class="img-responsive " alt="" />
+                            </a>
+                            <p>Assessment of safety issues.</p>
+                            <span class="badge badge-pill badge-warning">Data Visualization</span>
+                            <span class="badge badge-pill badge-info">Python</span>
+                        </div>
+                    </div> 
+                -->
+
+                <!--Coronavirus - News -->
                 <div class="col-md-2half col-sm-2half ml python visualization">
                     <div class="work-wrapper">
                         <a class="fancybox-media"  
@@ -290,7 +295,7 @@
                                    <ul>
                                         <li>Web Scraping from Google News</li>
                                         <li>Topic & Polarity classification
-                                        <a class=github title=GitHub href=https://github.com/stamatelou>more info </a>
+                                        <a class=github title=GitHub href=https://github.com/stamatelou/topic_and_polarity_classification>more info </a>
                                              <span s<i class='fa fa-github'></i></span> 
                                         </li>      
                                         <li>Sentiment analysis </li>
@@ -299,132 +304,155 @@
                             href="assets/img/portfolio/coronavirus.jpg">
                             <img src="assets/img/portfolio/coronavirus.jpg" class="img-responsive" alt="" />
                         </a>
-                        <p> Topic, polarity and emotion classification of COVID-19 related newsitems. </p>
+                        <p> Topic, polarity and emotion classification of COVID-19 related newsitems.</p>
                         <span class="badge badge-pill badge-warning">Machine Learning</span>
                         <span class="badge badge-pill badge-warning">Data Visualization</span>
                         <span class="badge badge-pill badge-info">Python</span>
                     </div>
                 </div>
 
+                 <!--Coronavirus - Dashboard -->
                 <div class="col-md-2half col-sm-2half visualization python css html">
                     <div class="work-wrapper">
                         <a class="fancybox-media" 
-                            title = "Visualize crowdedness in the amusement park with a focus on Food & Beverage facilities."
-                            data-caption="Visualize crowdedness in the amusement park with a focus on Food & Beverage facilities." 
+                            title = "Interactive dashboard for COVID-19 cases visualization per region or country."
+                            data-caption="<a class=github title=deployment href=https://covid-19-regional-forecasting.herokuapp.com>
+                                            <h3> Interactive dashboard for COVID-19 cases visualization per region or country (opensource).</h3> </a>
+                                          <a class=github title=GitHub href=https://github.com/stamatelou/covid19-region-forecast>more info </a>
+                                          <span s<i class='fa fa-github'></i></span> " 
                             href="assets/img/portfolio/coronavirus_dashboard.jpg">
                             <img src="assets/img/portfolio/coronavirus_dashboard.jpg" class="img-responsive " alt="" />
                         </a>
-                        <p>  Visualize crowdedness in the amusement park with a focus on Food & Beverage facilities. </p>
+                        <p>Interactive dashboard for COVID-19 cases visualization per region or country. </p>
                         <span class="badge badge-pill badge-warning">Data Visualization</span>
                         <span class="badge badge-pill badge-info">Python</span>
                         <span class="badge badge-pill badge-info">Dash & Plotly</span>
                     </div>
                 </div>
 
-                
-                
+                <!--Antio -->
                 <div class="col-md-2half col-sm-2half visualization d3 css html">
                     <div class="work-wrapper">
                         <a class="fancybox-media" 
-                            title="Create an interactive map of Greece for displaying the COVID-19 cases per province. " 
+                            title="Interactive map of Greece for visualizing the COVID-19 cases per province. " 
+                            data-caption="<a class=github title=deployment href=https://stamatelou.github.io/interactive_map_of_greece>
+                                            <h3> Interactive dashboard for COVID-19 cases visualization per region or country (opensource).</h3> </a>
+                                          <a class=github title=GitHub href=https://github.com/stamatelou/interactive_map_of_greece>more info </a>
+                                          <span s<i class='fa fa-github'></i></span> " 
                             href="assets/img/portfolio/antio.jpg">
                             <img src="assets/img/portfolio/antio.jpg" class="img-responsive " alt="" />
                         </a>
-                        <p> Create an interactive map of Greece for displaying the COVID-19 cases per province. </p>
+                        <p> Interactive map of Greece for visualizing the COVID-19 cases per province.  </p>
                         <span class="badge badge-pill badge-warning">Data Visualization</span>
                         <span class="badge badge-pill badge-info">D3.js</span>
                     </div>
                 </div>
 
+                <!--Efteling -->
                 <div class="col-md-2half col-sm-2half visualization python css html">
                     <div class="work-wrapper">
                         <a class="fancybox-media" 
-                            title="Visualize crowdedness in the amusement park with a focus on Food & Beverage facilities." 
+                            title="Crowdedness visualization in the amusement park with a focus on Food & Beverage facilities." 
+                            data-caption="<h3> Crowdedness visualization in the amusement park with a focus on Food & Beverage facilities.</h3>"
                             href="assets/img/portfolio/efteling.jpg">
                             <img src="assets/img/portfolio/efteling.jpg" class="img-responsive " alt="" />
                         </a>
-                        <p>  Visualize crowdedness in the amusement park with a focus on Food & Beverage facilities. </p>
+                        <p> Crowdedness visualization in the amusement park with a focus on Food & Beverage facilities. </p>
                         <span class="badge badge-pill badge-warning">Data Visualization</span>
                         <span class="badge badge-pill badge-info">Python</span>
                         <span class="badge badge-pill badge-info">Dash & Plotly</span>
                     </div>
                 </div>
-                
+
+                <!--Hendrix Genetics -->
                 <div class="col-md-2half col-sm-2half python ml">
                     <div class="work-wrapper">
                         <a class="fancybox-media" 
-                            title="Facilitate chicken selection for breeding through chicken traits investigation and clustering." 
+                            title="Chicken selection falicitation for breeding through chicken traits investigation and clustering." 
+                            data-caption="<h3> Chicken selection falicitation for breeding through chicken traits investigation and clustering.</h3>" 
                             href="assets/img/portfolio/hendrix_genetics.jpg" style="max-height: 100px; max-width: 100px;">
                             <img src="assets/img/portfolio/hendrix_genetics.jpg" class="img-responsive " alt="" />
                         </a>
-                        <p>Facilitate chicken selection for breeding through chicken traits investigation and clustering.</p>
+                        <p>Chicken selection falicitation for breeding through chicken traits investigation and clustering.</p>
                         <span class="badge badge-pill badge-warning">Machine Learning</span>
                         <span class="badge badge-pill badge-info">Python</span>
                     </div>
                 </div>
 
-                <div class="col-md-2half col-sm-2half python ml">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media" 
-                            title="Image Title Goes Here" 
-                            href="assets/img/portfolio/te_connectivity.jpg">
-                            <img src="assets/img/portfolio/te_connectivity.jpg" class="img-responsive " alt="" />
-                        </a>
-                        <p> Design a recommendation system for boosting cross-sales</p>
-                        <span class="badge badge-pill badge-warning">Machine Learning</span>
-                        <span class="badge badge-pill badge-info">Python</span>
+                <!--TE Connectivity -->
+                <!--
+                    <div class="col-md-2half col-sm-2half python ml">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media" 
+                                title="Image Title Goes Here" 
+                                href="assets/img/portfolio/te_connectivity.jpg">
+                                <img src="assets/img/portfolio/te_connectivity.jpg" class="img-responsive " alt="" />
+                            </a>
+                            <p> Design a recommendation system for boosting cross-sales</p>
+                            <span class="badge badge-pill badge-warning">Machine Learning</span>
+                            <span class="badge badge-pill badge-info">Python</span>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="col-md-2half col-sm-2half statistics python">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media" 
-                            title="Anomaly detection in water usage." 
-                            href="assets/img/portfolio/brabant_water.jpg">
-                            <img src="assets/img/portfolio/brabant_water.jpg" class="img-responsive " alt="" />
-                        </a>
-                        <p>  Anomaly detection in water usage. </p>
-                        <span class="badge badge-pill badge-warning">Statistics</span>
-                        <span class="badge badge-pill badge-info">Python</span>
+                -->
+
+                <!--Brabant Water -->    
+                 <!--            
+                    <div class="col-md-2half col-sm-2half statistics python">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media" 
+                                title="Anomaly detection in water usage." 
+                                href="assets/img/portfolio/brabant_water.jpg">
+                                <img src="assets/img/portfolio/brabant_water.jpg" class="img-responsive " alt="" />
+                            </a>
+                            <p>  Anomaly detection in water usage. </p>
+                            <span class="badge badge-pill badge-warning">Statistics</span>
+                            <span class="badge badge-pill badge-info">Python</span>
+                        </div>
                     </div>
-                </div>
+                -->
                 
+                <!--Philips Pregnancy -->    
                 <div class="col-md-2half col-sm-2half r visualization css html">
                     <div class="work-wrapper">
                         <a class="fancybox-media" 
-                            title="Developed a user-friendly interactive dashboard for visualizing health-data related to Pregnancy." 
+                            title="Interactive for visualizing health-data related to Pregnancy."
+                            data-caption= "<h3>Interactive for visualizing health-data related to Pregnancy.</h3>"
                             href="assets/img/portfolio/philips_pregnancy.jpg">
                             <img src="assets/img/portfolio/philips_pregnancy.jpg" class="img-responsive " alt="" />
                         </a>
-                        <p> Developed a user-friendly interactive dashboard for visualizing health-data related to Pregnancy. </p>
+                        <p> Interactive for visualizing health-data related to Pregnancy. </p>
                         <span class="badge badge-pill badge-warning">Data Visualization</span>
                         <span class="badge badge-pill badge-info">R</span>
                         <span class="badge badge-pill badge-info">Rshiny</span>
                     </div>
                 </div>
 
+                <!--Imec-->    
                 <div class="col-md-2half col-sm-2half image matlab">
                     <div class="work-wrapper">
                         <a class="fancybox-media" 
-                            title="Image Title Goes Here" 
+                            title="3D surface reconstruction based on multiple optical images." 
+                            data-caption= "<h3> 3D surface reconstruction based on multiple optical images.</h3>"
                             href="assets/img/portfolio/philips_3d.jpg">
                             <img src="assets/img/portfolio/philips_3d.jpg" class="img-responsive " alt="" />
                         </a>
-                        <p> Create a 3D surface reconstruction based on multiple optical images. </p>
+                        <p> 3D surface reconstruction based on multiple optical images. </p>
                         <span class="badge badge-pill badge-warning">Image Processing</span>
                         <span class="badge badge-pill badge-warning">3D Reconstruction</span>
                         <span class="badge badge-pill badge-info">MATLAB</span>
                     </div>
                 </div>
 
+                <!--Philips internship--> 
                 <div class="col-md-2half col-sm-2half image matlab ml">
                     <div class="work-wrapper">
                         <a class="fancybox-media" 
-                            title="Designed an approach for image processing and classification of holographic images of human white blood cells" 
+                            title="Image processing and classification of holographic images of human blood cells." 
+                            data-caption= "<h3>Image processing and classification of holographic images of human blood cells.</h3>"
                             href="assets/img/portfolio/imec.jpg">
                             <img src="assets/img/portfolio/imec.jpg" class="img-responsive" alt="" />
                         </a>
-                        <p> Designed an approach for image processing and classification of holographic images of human white blood cells.</p>
+                        <p> Image processing and classification of holographic images of human blood cells.</p>
                         <span class="badge badge-pill badge-warning">Image Processing</span>
                         <span class="badge badge-pill badge-warning">Machine Learning</span>
                         <span class="badge badge-pill badge-info">MATLAB</span>
@@ -441,11 +469,10 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
-                        <i class="ion-ios-drag clr-set f-big"></i>
+                        
                         <br />
                         <p>
-                            Consectetur adipiscing elit felis dolor felis dolor vitae.
-                     Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae felis dolor vitae
+                        
                         </p>
                     </div>
                 </div>
@@ -458,7 +485,7 @@
 
             <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.2s">
                 <div class="col-md-6 col-md-offset-3 pad-bottom">
-                    <h2><strong>AWESOME TEAM</strong></h2>
+                    <h2><strong>NEWS</strong></h2>
                     Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae
 
                 </div>
@@ -528,20 +555,12 @@
                 <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.2s">
                     <div class="col-md-6 col-md-offset-3 pad-bottom">
                         <h2><strong>STAY CONNECTED </strong></h2>
-                        Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae
+                        elenistamatelou@gmail.com
 
                     </div>
                 </div>
 
                 <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.4s">
-
-                    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                        <h3><strong>Address : </strong></h3>
-                        <br />
-                        <h4>102, Melborne City International,</h4>
-                        <h4>United States </h4>
-                        <h4><strong>Email : </strong>info@yourdomain.com</h4>
-                    </div>
 
                 </div>
 
@@ -551,10 +570,6 @@
         </div>
     </section>
     <!-- CONTACT SECTION END -->
-    <footer>
-        &copy 2015 YourDomain.com  | <a href="http://www.designbootstrap.com/" target="_blank">by DesignBootstrap</a>
-    </footer>
-    <!--FOOTER SECTION END  -->
     <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
     <!-- CORE JQUERY  SCRIPTS -->
     <script src="assets/js/jquery-1.11.1.js"></script>
