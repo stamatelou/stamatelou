@@ -291,6 +291,34 @@ padding:0px;
 #team {
     background-color:#cfcfcf;
 }
+#team {
+    background-color:#cfcfcf;
+}
+
+#team {
+    background-color:rgba(209,209, 214);
+}
+#team .work-wrapper {
+    border: 2px solid #e0e0e0;
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+    height: 350px !important;
+    max-width: 250px; 
+
+}
+
+#team img {
+    filter: gray; /* FOR IE6-9 */
+    -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+    opacity: 0.8;
+    
+}
+
+    #team img:hover {
+        filter: none; /* FOR IE6-9 */
+        -webkit-filter: grayscale(1); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+        opacity: 1;
+    }
 
 .media img {
     margin-right: 40px;
